@@ -17,7 +17,7 @@ Best Fit Logic: When a new request is made it searches for a free block with the
 
 3.MYMALLOC FUNCTION
 * The mymalloc function assigns a block depending on the request and makes a new book keeping structure accordingly.
-* It uses Best Fit Method of assigning
+* It uses Best Fit Method of assigning oooh
 
 
 
