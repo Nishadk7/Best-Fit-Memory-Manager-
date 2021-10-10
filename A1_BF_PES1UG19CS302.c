@@ -4,9 +4,10 @@
 char *p;
 int size;
 int tot_space = 0;
+int t = 12;
 
 struct book
-{
+{	
 	int blk_size;
 	int blk_status;
 	struct book* next;
@@ -31,6 +32,8 @@ void allocate(int size){
 	temp->next = NULL;
 	temp->prev = NULL;
 }
+
+
 
 
 void* mymalloc(int msize){
