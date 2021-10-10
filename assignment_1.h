@@ -17,7 +17,7 @@ void display_mem_map(); // print the memory array p in the following format
 
 // sample output for the following sanity_client:
 
-// allocate(100);
+// allocate(500);
 // print_book();
 //
 // char *b = (char *)mymalloc(30 * sizeof(char));
