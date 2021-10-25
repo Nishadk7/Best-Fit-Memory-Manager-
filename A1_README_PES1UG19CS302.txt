@@ -3,6 +3,7 @@ Memory Manager Best Fit Readme
 
 Best Fit Logic: When a new request is made it searches for a free block with the smallest sufficient space as the new blocks address. If multiple blocks have same smallest size first one is picked as the new location. 
 
+Hey This shit is so easy
 
 1.BOOK KEEP STRUCTURE(  24 BYTES  )
 * The book keeping struct has 2 integer members (blk_size and status) and two book keep pointers next and prev which points to the next and previous book keep structure. 
